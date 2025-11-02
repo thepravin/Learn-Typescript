@@ -1,0 +1,4 @@
+
+1.   tsc --init
+
+2.    tsc -w

@@ -1,0 +1,1 @@
+1. All the datatypes or types are in lowercase.
