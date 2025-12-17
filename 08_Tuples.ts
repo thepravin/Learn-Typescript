@@ -17,9 +17,10 @@ newUser[1] = "hc.com"
 // newUser.push(true)
 
 
+const location: readonly [number,number] = [15,16]
+// location = [17,18] // error
 
-
-
+const chaiItem: [name:string,price:number] = ["masala",25]
 
 
 
