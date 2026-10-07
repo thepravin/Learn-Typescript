@@ -1,3 +1,7 @@
+/**
+ * Interface getting merge.
+ */
+
 interface User2 {
   readonly dbId: number;
   email: string;
@@ -33,3 +37,10 @@ const hitesh: Admin2 = {
 };
 hitesh.email = "h@hc.com";
 // hitesh.dbId = 33 // error : readonly
+
+
+interface DiscountCalculator{
+  (price: number): number   // method declaration/signature 
+}
+
+const apply50: DiscountCalculator = (p)=> p*0.5;

@@ -9,3 +9,11 @@ const obj : customInterface<string, number> = {
 }
 
 console.log(obj);
+
+/**
+ * Generic support :
+ * Partial
+ * Pick
+ * Omit
+ * Required
+ */
